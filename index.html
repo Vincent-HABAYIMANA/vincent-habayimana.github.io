@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vincent Habayimana – Computer Engineering Student at the University of Rwanda. Building smart solutions for real-world problems in Africa." />
+  <meta name="keywords" content="Vincent Habayimana, Rwanda, Computer Engineering, Software Developer, Frontend, Flutter, AI" />
+  <meta name="author" content="Vincent Habayimana" />
+  <meta property="og:title" content="Vincent Habayimana | Portfolio" />
+  <meta property="og:description" content="Computer Engineering Student building smart solutions for real-world problems in Rwanda." />
+  <meta property="og:type" content="website" />
+  <title>Vincent Habayimana | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="nav-logo">VH<span class="dot">.</span></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <span class="icon-sun">☀</span>
+        <span class="icon-moon">☽</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-greeting reveal">Hello, I'm</p>
+      <h1 class="hero-name reveal">Vincent<br /><span class="accent">HABAYIMANA</span></h1>
+      <p class="hero-tagline reveal">Building smart solutions for<br /><span class="typed-wrapper"><span id="typed"></span><span class="cursor">|</span></span></p>
+      <p class="hero-sub reveal">Computer Engineering Student · University of Rwanda</p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+        <a href="cv.pdf" class="btn btn-ghost" download>Download CV ↓</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <span class="avatar-initials">VH</span>
+        </div>
+        <div class="orbit orbit-1"><div class="orbit-dot"></div></div>
+        <div class="orbit orbit-2"><div class="orbit-dot"></div></div>
+      </div>
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        Open to Internships
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">01 / About</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="about-lead">I'm a Year 3 Computer Engineering student at the <strong>University of Rwanda</strong>, passionate about using technology to solve real problems — right here in Africa.</p>
+          <p>My journey in tech started with curiosity about how things work. From writing my first lines of HTML to building Java applications and exploring AI systems, every step has deepened my drive to <em>build, learn, and contribute</em>.</p>
+          <p>I'm especially excited about embedded systems, AI-powered tools, and creating software that makes life better for communities in Rwanda and beyond. I believe the next generation of African engineers will define the continent's digital future — and I want to be part of that story.</p>
+          <div class="about-highlights">
+            <div class="highlight-item reveal">
+              <span class="highlight-num">3+</span>
+              <span class="highlight-label">Years Learning</span>
+            </div>
+            <div class="highlight-item reveal">
+              <span class="highlight-num">5+</span>
+              <span class="highlight-label">Projects Built</span>
+            </div>
+            <div class="highlight-item reveal">
+              <span class="highlight-num">🇷🇼</span>
+              <span class="highlight-label">Kigali, Rwanda</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card reveal">
+          <h3>Currently</h3>
+          <ul class="about-list">
+            <li>📚 Studying Computer &amp; Software Engineering, Year 3</li>
+            <li>🤖 Exploring AI &amp; Embedded Systems</li>
+            <li>🌍 Building solutions relevant to Rwanda</li>
+            <li>💼 Seeking internship &amp; job opportunities</li>
+          </ul>
+          <h3 style="margin-top:1.5rem">Goals</h3>
+          <ul class="about-list">
+            <li>🎓 Graduate with a strong engineering foundation</li>
+            <li>🚀 Launch tech products for the Rwandan market</li>
+            <li>🌐 Contribute to open-source African tech initiatives</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">02 / Skills</span>
+        <h2 class="section-title">What I Work With</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <div class="skill-icon">&#60;/&#62;</div>
+          <h3>Frontend</h3>
+          <div class="skill-pills">
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS3</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">Responsive Design</span>
+            <span class="pill">Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-icon">{ }</div>
+          <h3>Backend &amp; Languages</h3>
+          <div class="skill-pills">
+            <span class="pill">Python</span>
+            <span class="pill">Flask</span>
+            <span class="pill">Java</span>
+            <span class="pill">C / C++</span>
+            <span class="pill">PHP</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-icon">◈</div>
+          <h3>Mobile &amp; AI</h3>
+          <div class="skill-pills">
+            <span class="pill">Flutter (Learning)</span>
+            <span class="pill">React Native</span>
+            <span class="pill">Embedded Systems</span>
+            <span class="pill">ML Basics</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-icon">⚙</div>
+          <h3>Tools &amp; Platforms</h3>
+          <div class="skill-pills">
+            <span class="pill">Git</span>
+            <span class="pill">GitHub</span>
+            <span class="pill">VS Code</span>
+            <span class="pill">Linux</span>
+            <span class="pill">Figma</span>
+            <span class="pill">PostgreSQL</span>
+            <span class="pill">MySQL</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">03 / Projects</span>
+        <h2 class="section-title">Things I've Built</h2>
+        <p class="section-sub">A selection of projects built during my engineering studies.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- E-Voting System -->
+        <div class="project-card reveal" data-category="java">
+          <div class="card-header">
+            <span class="card-icon">🗳️</span>
+            <div class="card-links">
+              <a href="https://github.com/vincent-habayimana" target="_blank" rel="noopener" class="card-link" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="card-title">E-Voting System</h3>
+          <p class="card-desc">A secure digital voting application built in Java. Handles voter registration, authentication, ballot management, and real-time result tallying with fraud prevention logic.</p>
+          <div class="card-tech">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">OOP</span>
+            <span class="tech-tag">File I/O</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/vincent-habayimana" target="_blank" rel="noopener" class="btn btn-sm">View on GitHub →</a>
+          </div>
+        </div>
+
+        <!-- BMI Calculator -->
+        <div class="project-card reveal" data-category="python">
+          <div class="card-header">
+            <span class="card-icon">⚖️</span>
+            <div class="card-links">
+              <a href="https://github.com/vincent-habayimana" target="_blank" rel="noopener" class="card-link" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="card-title">BMI Calculator (Flask)</h3>
+          <p class="card-desc">A web-based Body Mass Index calculator with health category feedback, built using Python Flask. Features a clean UI, metric/imperial unit toggle, and health tips per category.</p>
+          <div class="card-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Flask</span>
+            <span class="tech-tag">HTML/CSS</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/vincent-habayimana" target="_blank" rel="noopener" class="btn btn-sm">View on GitHub →</a>
+          </div>
+        </div>
+
+        <!-- FitTrack -->
+        <div class="project-card reveal" data-category="mobile">
+          <div class="card-header">
+            <span class="card-icon">🏃</span>
+            <div class="card-links">
+              <a href="https://github.com/vincent-habayimana" target="_blank" rel="noopener" class="card-link" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="card-title">FitTrack</h3>
+          <p class="card-desc">A fitness tracking application that allows users to log workouts, monitor progress over time, and set weekly goals. Designed with a focus on simplicity and habit building.</p>
+          <div class="card-tech">
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">HTML/CSS</span>
+            <span class="tech-tag">LocalStorage</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/vincent-habayimana" target="_blank" rel="noopener" class="btn btn-sm">View on GitHub →</a>
+          </div>
+        </div>
+
+        <!-- Sentiment Analysis -->
+        <div class="project-card reveal" data-category="ai">
+          <div class="card-header">
+            <span class="card-icon">🧠</span>
+            <div class="card-links">
+              <a href="https://github.com/vincent-habayimana" target="_blank" rel="noopener" class="card-link" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="card-title">Sentiment Analysis (C++ BST)</h3>
+          <p class="card-desc">A sentiment classification engine implemented in C++ using a Binary Search Tree data structure to store and search lexicon entries. Classifies text as positive, negative, or neutral.</p>
+          <div class="card-tech">
+            <span class="tech-tag">C++</span>
+            <span class="tech-tag">DSA / BST</span>
+            <span class="tech-tag">NLP Basics</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/vincent-habayimana" target="_blank" rel="noopener" class="btn btn-sm">View on GitHub →</a>
+          </div>
+        </div>
+
+        <!-- TechWaste Reclaim -->
+        <div class="project-card reveal featured" data-category="ai">
+          <div class="featured-badge">Featured</div>
+          <div class="card-header">
+            <span class="card-icon">♻️</span>
+            <div class="card-links">
+              <a href="https://github.com/vincent-habayimana" target="_blank" rel="noopener" class="card-link" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="card-title">TechWaste Reclaim</h3>
+          <p class="card-desc">An AI-powered e-waste classification and recycling management system tailored for Rwanda. Uses a machine learning classification engine to identify electronic waste types and route them to appropriate recycling facilities. Integrates with REMA guidelines.</p>
+          <div class="card-tech">
+            <span class="tech-tag">Django</span>
+            <span class="tech-tag">Flutter</span>
+            <span class="tech-tag">Machine Learning</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Rwanda</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/vincent-habayimana" target="_blank" rel="noopener" class="btn btn-sm">View on GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE / EDUCATION ===== -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">04 / Experience</span>
+        <h2 class="section-title">Education &amp; Journey</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2022 – Present</span>
+            <h3>BSc. Computer &amp; Software Engineering</h3>
+            <p class="timeline-org">University of Rwanda · College of Science &amp; Technology</p>
+            <p>Studying core modules including Data Structures &amp; Algorithms, Database Systems, Software Engineering, Computer Networks, Embedded Systems, and AI. Consistently working on academic projects with real-world applications relevant to Rwanda.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2024</span>
+            <h3>Self-Directed Learning — Mobile &amp; AI</h3>
+            <p class="timeline-org">Online / Self-taught</p>
+            <p>Completed courses in Flutter mobile development, Python for data science, and introductory machine learning. Built practical projects to apply these skills including the SmartTodo app with Expo and React Native.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023</span>
+            <h3>Academic Project Work</h3>
+            <p class="timeline-org">University of Rwanda</p>
+            <p>Led and contributed to multiple semester projects including the E-Voting System (Java), Sentiment Analysis engine (C++), and the Campus Lost &amp; Found Platform — all focused on solving practical problems.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot future"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Upcoming</span>
+            <h3>Internship &amp; Industry Experience</h3>
+            <p class="timeline-org">Actively seeking opportunities</p>
+            <p>Looking for internship placements in software development, AI, or embedded systems with companies operating in Rwanda and East Africa. Open to remote and hybrid roles.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">05 / Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-sub">Whether it's an internship, collaboration, or just a conversation about tech in Rwanda — I'm always open.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-links reveal">
+          <a href="mailto:vincenthabayimana@gmail.com" class="contact-item">
+            <span class="contact-icon">✉</span>
+            <div>
+              <strong>Email</strong>
+              <p>vincenthabayimana@gmail.com</p>
+            </div>
+          </a>
+          <a href="https://github.com/vincent-habayimana" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </span>
+            <div>
+              <strong>GitHub</strong>
+              <p>github.com/vincent-habayimana</p>
+            </div>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon">in</span>
+            <div>
+              <strong>LinkedIn</strong>
+              <p>Add your LinkedIn profile</p>
+            </div>
+          </a>
+          <div class="contact-item location">
+            <span class="contact-icon">📍</span>
+            <div>
+              <strong>Location</strong>
+              <p>Kigali, Rwanda 🇷🇼</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Amina Uwimana" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Internship Opportunity / Collaboration" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Hi Vincent, I'd love to talk about..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%">Send Message →</button>
+          <p class="form-note" id="form-status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="footer-logo">VH<span class="dot">.</span></a>
+      <p class="footer-copy">© 2025 Vincent Habayimana. Built with 💚 in Rwanda.</p>
+      <div class="footer-socials">
+        <a href="mailto:vincenthabayimana@gmail.com" aria-label="Email">✉</a>
+        <a href="https://github.com/vincent-habayimana" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
